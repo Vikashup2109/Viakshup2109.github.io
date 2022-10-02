@@ -28,9 +28,9 @@ const Projects = forwardRef((props, ref) => {
           },
           4: {
                'heading': 'pc-beast: A one pager portfolio website.',
-               'description-1': '',
-               'description-2': '',
-               'tech-used': 'JavaScript | React | TailwindCSS',
+               'description-1': 'Minimilistic one Page Website having all the professional details.',
+               'description-2': 'Made this for an Open Source Contributer.',
+               'tech-used': 'JavaScript | React | TailwindCSS | CSS | Vercel',
                'demo-link': 'https://photus.vercel.app',
                'github-link': 'https://github.com/pc-beast/pc-beast-portfolio'
           },

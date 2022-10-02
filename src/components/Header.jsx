@@ -28,40 +28,41 @@ const Header = ({ aboutRef, skillRef, homeRef, servicesRef, projectsRef, contact
           e.preventDefault();
           contactRef.current.scrollIntoView({ behavior: "smooth" });
      };
+
      return (
           <>
-               <header className='w-full h-10 md:h-16 fixed bottom-0 md:top-0 md:left-0 bg-containerColor'>
+               <header className='w-full h-10 md:h-16 fixed bottom-0 md:top-0 md:left-0 bg-containerColor shadow-md'>
                     <nav className='px-4 xsm:px-6 max-w-5xl h-10 md:h-16 mx-auto flex justify-between items-center gap-x-4'>
-                         <a href="./" className='text-titleColor font-medium'>Vikash</a>
+                         <a href="./" className='text-titleColor font-medium text-h3'>Vikash</a>
                          <div className={toggle ? 'nav_menu show_menu' : 'nav_menu'}>
-                              <ul className='grid grid-cols-3 gap-x-0 gap-8 md:flex md:gap-x-8'>
-                                   <li className=''>
-                                        <a href="#home" className='flex flex-col items-center text-small font-medium text-titleColorDark' onClick={HomeScroll}>
+                              <ul className='grid grid-cols-3 gap-x-0 gap-8 md:flex md:gap-x-8' id='ul'>
+                                   <li className='border-b-4 pb-0.5 border-titleColor rounded-md text-titleColor'>
+                                        <a href="#home" className='btn active flex flex-col items-center text-small font-medium hover:text-titleColorDark' onClick={HomeScroll}>
                                              <i class="uil uil-estate block text-xl md:hidden"></i> Home
                                         </a>
                                    </li>
                                    <li className=''>
-                                        <a href="#about" className='flex flex-col items-center text-small font-medium hover:text-titleColorDark' onClick={AboutScroll}>
+                                        <a href="#about" className='btn flex flex-col items-center text-small font-medium hover:text-titleColorDark' onClick={AboutScroll}>
                                              <i class="uil uil-user block text-xl md:hidden"></i> About
                                         </a>
                                    </li>
                                    <li className=''>
-                                        <a href="#skills" className='flex flex-col items-center text-small font-medium hover:text-titleColorDark' onClick={SkillsScroll}>
+                                        <a href="#skills" className='btn flex flex-col items-center text-small font-medium hover:text-titleColorDark' onClick={SkillsScroll}>
                                              <i class="uil uil-file-alt nav_icon block text-xl md:hidden"></i> Skills
                                         </a>
                                    </li>
                                    <li className=''>
-                                        <a href="#services" className='flex flex-col items-center text-small font-medium hover:text-titleColorDark' onClick={ServicesScroll}>
+                                        <a href="#services" className='btn flex flex-col items-center text-small font-medium hover:text-titleColorDark' onClick={ServicesScroll}>
                                              <i class="uil uil-briefcase-alt block text-xl md:hidden"></i> Services
                                         </a>
                                    </li>
                                    <li className=''>
-                                        <a href="#portfolio" className='flex flex-col items-center text-small font-medium hover:text-titleColorDark' onClick={ProjectsScroll}>
+                                        <a href="#portfolio" className='btn flex flex-col items-center text-small font-medium hover:text-titleColorDark' onClick={ProjectsScroll}>
                                              <i class="uil uil-scenery block text-xl md:hidden"></i> Portfolio
                                         </a>
                                    </li>
                                    <li className=''>
-                                        <a href="#contact" className='flex flex-col items-center text-small font-medium hover:text-titleColorDark' onClick={ContactScroll}>
+                                        <a href="#contact" className='btn flex flex-col items-center text-small font-medium hover:text-titleColorDark' onClick={ContactScroll}>
                                              <i class="uil uil-message nav_icon block text-xl md:hidden"></i> Contact
                                         </a>
                                    </li>

@@ -53,24 +53,6 @@ img {
      height: auto;
 }
 
-/* Reusable CSS classes */
-
-
-.section_title {
-     font-size: 2.25rem;
-     color: #333333;
-}
-
-.section_subtitle {
-     display: block;
-     font-size: 0.875rem;
-     margin-bottom: 4rem;
-}
-
-.section_title,
-.section_subtitle {
-     text-align: center;
-}
 
 /* Button */
 .button {
@@ -88,34 +70,9 @@ img {
 }
 
 .profile-image {
-     animation: motion 8s ease-in-out infinite 1s;
+     border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
 }
 
-@keyframes motion {
-     0% {
-          border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
-     }
-
-     50% {
-          border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
-     }
-
-     100% {
-          border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
-     }
-
-}
-
-@media (max-width: 1024px) {
-     .home_content {
-          grid-template-columns: 1fr 2fr;
-          justify-self: start;
-     }
-
-     .home_data {
-          grid-column: 1/3;
-     }
-}
 
 @media (max-width: 768px) {
 
@@ -124,14 +81,6 @@ img {
      input,
      textarea {
           font-size: 0.938rem;
-     }
-
-     .section_title {
-          font-size: 1.5rem;
-     }
-
-     .section_subtitle {
-          font-size: 0.813rem;
      }
 
      .nav_menu {
