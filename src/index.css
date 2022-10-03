@@ -53,6 +53,9 @@ img {
      height: auto;
 }
 
+.show {
+     bottom: 3rem;
+}
 
 /* Button */
 .button {
@@ -72,6 +75,7 @@ img {
 .profile-image {
      border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
 }
+
 
 
 @media (max-width: 768px) {

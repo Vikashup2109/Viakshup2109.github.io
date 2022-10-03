@@ -16,7 +16,7 @@ const ScrollUp = ({ homeRef }) => {
      }
      return (
           <>
-               <a href='#sxcroll' className="scroll_up fixed right-10 bg-titleColor opacity-80 py-1.5 px-2 rounded-md hover:text-titleColorDark" onClick={HomeScroll}>
+               <a href='#sxcroll' className="scroll_up fixed right-10 bg-titleColor opacity-80 py-1.5 px-2 rounded-md hover:bg-titleColorDark" onClick={HomeScroll}>
                     <i className="uil uil-arrow-up text-2xl text-containerColor"></i>
                </a>
           </>
