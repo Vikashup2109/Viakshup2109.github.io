@@ -13,7 +13,7 @@ const Footer = ({ aboutRef, projectsRef }) => {
           <>
                <footer className='bg-containerColor border-t-2 border-solid border-black border-opacity-10 '>
                     <div className="pt-4 pb-16 md:py-6">
-                         <h1 className="text-titleColor text-center mb-2 text-h1">Vikash</h1>
+                         <h1 className="text-titleColor text-center mb-2 text-h2">Vikash Upadhyay</h1>
                          <ul className="flex justify-center gap-6 mb-6">
                               <li>
                                    <a href="#first" className="text-titleColor hover:text-titleColorDark" onClick={AboutScroll}> About </a>

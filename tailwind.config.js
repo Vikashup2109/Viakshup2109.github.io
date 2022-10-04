@@ -22,7 +22,7 @@ module.exports = {
                fontSize: {
                     big: '2.75rem',
                     h1: '2.25rem',
-                    h2: '1.5rem',
+                    h2: '1.8rem',
                     h3: '1.2rem',
                     normal: '1rem',
                     small: '0.875rem',

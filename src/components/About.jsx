@@ -35,7 +35,7 @@ const About = forwardRef((props, ref) => {
                                    {/* About Description */}
 
                                    <p className="p-0 sm:pr-20 sm:pl-20 lg:p-0 lg:pr-5 mb-8">
-                                        Frontend Developer, I create web pages with UI/UX user interface, I have done work in freelancing Projects for a year
+                                        Frontend Developer, I create successful websites that are fast, easy to use, and built with best practices. I have done work in freelancing Projects for a year
                                         and many clients are happy with the projects carried out.
                                    </p>
 
