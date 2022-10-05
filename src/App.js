@@ -10,6 +10,7 @@ import Footer from './components/Footer';
 import ScrollUp from './components/ScrollUp';
 
 function App() {
+
      const HomeRef = useRef(null);
      const AboutRef = useRef(null);
      const ExpertiseRef = useRef(null);

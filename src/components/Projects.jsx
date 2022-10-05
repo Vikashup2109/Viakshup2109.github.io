@@ -4,7 +4,7 @@ const Projects = forwardRef((props, ref) => {
      const projects = {
           1: {
                'heading': 'PHYSIQUE: A GYM SUPPLIMENT DELIVERY WEBSITE',
-               'description-1': 'A marketplace site where gym-suppliments can be found and can also order.',
+               'description-1': 'A marketplace site where gym-supplements can be found and can also order.',
                'description-2': 'Implemented the dynamic content management through Sanity.',
                'tech-used': ' JavaScript | NextJS | Sanity | Zustand',
                'demo-link': 'https://physique.vercel.app',
@@ -29,7 +29,7 @@ const Projects = forwardRef((props, ref) => {
           4: {
                'heading': 'pc-beast: A one pager portfolio website.',
                'description-1': 'Minimilistic one Page Website having all the professional details.',
-               'description-2': 'Made this for an Open Source Contributer.',
+               'description-2': 'Made this for a leading Open Source Contributer.',
                'tech-used': 'JavaScript | React | TailwindCSS | CSS | Vercel',
                'demo-link': 'https://photus.vercel.app',
                'github-link': 'https://github.com/pc-beast/pc-beast-portfolio'

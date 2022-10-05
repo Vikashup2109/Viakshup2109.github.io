@@ -45,7 +45,7 @@ const Home = forwardRef((props, ref) => {
                               <div className="lg:w-1/2 lg:pl-8 md:pl-20 lg:pl-24 mt-24">
                                    <div className="text-center lg:text-left">
                                         <h1 className="text-res-big sm:text-h2 mb-2">Designer and Front-End Developer</h1>
-                                        <h3 className="text-res-h3 sm:text-h3 lg:pl-16 font-normal mb-4 ">Hey &#128075;, Vikash this side.</h3>
+                                        <h3 className="text-res-h3 sm:text-h3 lg:pl-16 font-normal mb-4 ">Hey, I'm <strong>Vikash</strong>. Nice to meet you.</h3>
                                         <p className="max-w-md">I'm a creative designer and developer based in India. I like to code things from scratch, and enjoy bringing ideas to life in the browser.
                                         </p>
                                         <a href="#contact" className="button button--flex space-x-2 my-10 text-containerColor" onClick={ContactScroll}>

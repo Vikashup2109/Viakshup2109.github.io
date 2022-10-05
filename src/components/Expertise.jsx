@@ -86,7 +86,7 @@ const Expertise = forwardRef((props, ref) => {
                               <div className="justify-center mx-auto ">
                                    <div className="bg-containerColor border border-solid border-black border-opacity-10 rounded-3xl  py-8 px-8 sm:px-16">
                                         <div className='flex items-center gap-6'>
-                                             <i class="uil uil-brackets-curly block text-h1 text-titleColor mb-4"></i>
+                                             <i className="uil uil-brackets-curly block text-h1 text-titleColor mb-4"></i>
                                              <h3 className="text-normal font-medium text-center mb-6">Frontend Development Stack</h3>
                                         </div>
 
@@ -102,7 +102,7 @@ const Expertise = forwardRef((props, ref) => {
                                                   Object.values(frontend_skills_set).map((skill) => {
                                                        return (
                                                             <div className="skills_data flex gap-1 md:gap-1 mx-auto text-left">
-                                                                 <i class="uil uil-check-circle font-bold text-base text-titleColor"></i>
+                                                                 <i className="uil uil-check-circle font-bold text-base text-titleColor"></i>
                                                                  <div className=''>
                                                                       <h3 className="skill_name leading-4 font-medium text-small">{skill.skill_name}</h3>
                                                                       <span className="skill_level text-tiny md:text-tiny">{skill.skill_level}</span>
@@ -113,7 +113,7 @@ const Expertise = forwardRef((props, ref) => {
                                              }
 
                                              <div className="skills_data flex gap-1 md:gap-2 mx-auto text-left">
-                                                  <i class="uil uil-check-circle font-bold text-base text-titleColor"></i>
+                                                  <i className="uil uil-check-circle font-bold text-base text-titleColor"></i>
                                                   <div className=''>
                                                        <h3 className="skill_name leading-4 font-medium text-smaller">Beer &#127867;</h3>
                                                        <span className="skill_level text-tiny md:text-tiny">Advance</span>
@@ -125,7 +125,7 @@ const Expertise = forwardRef((props, ref) => {
                               <div className="justify-center mx-auto ">
                                    <div className="bg-containerColor border border-solid border-black border-opacity-10 rounded-3xl  py-8 px-8 sm:px-16">
                                         <div className='flex items-center gap-6'>
-                                             <i class="uil uil-transaction services_icon block text-h1 text-titleColor mb-4"></i>
+                                             <i className="uil uil-transaction services_icon block text-h1 text-titleColor mb-4"></i>
                                              <h3 className="text-normal font-medium text-center mb-6">Designer</h3>
                                         </div>
 
@@ -143,7 +143,7 @@ const Expertise = forwardRef((props, ref) => {
                                                   Object.values(design_skills_set).map((design_skill) => {
                                                        return (
                                                             <div className="skills_data flex gap-1 md:gap-1 mx-auto text-left">
-                                                                 <i class="uil uil-check-circle font-bold text-base text-titleColor"></i>
+                                                                 <i className="uil uil-check-circle font-bold text-base text-titleColor"></i>
                                                                  <div className=''>
                                                                       <h3 className="skill_name leading-4 font-medium text-small">{design_skill.skill_name}</h3>
                                                                       <span className="skill_level text-tiny md:text-tiny">{design_skill.skill_level}</span>
