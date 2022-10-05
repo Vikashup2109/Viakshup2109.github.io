@@ -5,7 +5,7 @@ const Expertise = forwardRef((props, ref) => {
      let frontend_skills_set = {
           1: {
                skill_name: 'JavaScript',
-               skill_level: 'Advance'
+               skill_level: 'Intermediate'
           },
           2: {
                skill_name: 'CSS',
@@ -20,12 +20,13 @@ const Expertise = forwardRef((props, ref) => {
                skill_level: 'Advance'
           },
           5: {
-               skill_name: 'NextJS',
-               skill_level: 'Intermediate'
-          },
-          6: {
                skill_name: 'TailwindCSS',
                skill_level: 'Advance'
+
+          },
+          6: {
+               skill_name: 'NextJS',
+               skill_level: 'Intermediate'
           },
           7: {
                skill_name: 'Git',
@@ -69,6 +70,10 @@ const Expertise = forwardRef((props, ref) => {
                skill_name: 'Logos',
                skill_level: 'Intermediate'
           },
+          7: {
+               skill_name: 'PhotoShop',
+               skill_level: 'Basic'
+          },
      }
 
      return (
@@ -89,7 +94,7 @@ const Expertise = forwardRef((props, ref) => {
                                         <div className='flex items-center pb-8 '>
                                              <p className="text-small sm:text-normal leading-6 sm:leading-7">
                                                   I specialize in applications written in React and NextJS. Recently I became also a huge fan of one-way data flow.
-                                                  <br />I have launched 4 single page applications in React or NextJS
+                                                  <br />I have launched many single page applications in React or NextJS
                                              </p>
                                         </div>
                                         <div className="grid grid-cols-2 md:grid-cols-3 gap-10 py-6 justify-center">
@@ -128,8 +133,8 @@ const Expertise = forwardRef((props, ref) => {
                                         <div className='flex items-center pb-8 '>
                                              <p className="text-small sm:text-normal leading-6 sm:leading-7">
                                                   I value simple content structure, clean design patterns, and thoughtful interactions.
-                                                  <br />Mission: To create unique, digital experiences for brands who deserved to make an impact.
-                                                  <br />My collective experience ranges from design, digital media, digital marketing and SEO, to brand strategy and development.
+                                                  <br />Mission: To create unique, digital experiences for brands who deserves to make an impact.
+                                                  <br />My collective experience ranges from design, digital media, digital marketing, to brand strategy and development.
                                              </p>
                                         </div>
                                         <div className="grid grid-cols-2 md:grid-cols-3 gap-10 py-6">

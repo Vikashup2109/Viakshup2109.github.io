@@ -6,26 +6,32 @@ const Header = ({ aboutRef, expertiseRef, homeRef, thoughtsRef, projectsRef, con
      const HomeScroll = (e) => {
           e.preventDefault();
           homeRef.current.scrollIntoView({ behavior: "smooth" })
+          setToggle(false);
      }
      const AboutScroll = (e) => {
           e.preventDefault();
           aboutRef.current.scrollIntoView({ behavior: "smooth" });
+          setToggle(false);
      };
      const ExpertiseScroll = (e) => {
           e.preventDefault();
           expertiseRef.current.scrollIntoView({ behavior: "smooth" });
+          setToggle(false);
      };
      const ThoughtsScroll = (e) => {
           e.preventDefault();
           thoughtsRef.current.scrollIntoView({ behavior: "smooth" });
+          setToggle(false);
      };
      const ProjectsScroll = (e) => {
           e.preventDefault();
           projectsRef.current.scrollIntoView({ behavior: "smooth" });
+          setToggle(false);
      };
      const ContactScroll = (e) => {
           e.preventDefault();
           contactRef.current.scrollIntoView({ behavior: "smooth" });
+          setToggle(false);
      };
 
      return (
@@ -41,8 +47,8 @@ const Header = ({ aboutRef, expertiseRef, homeRef, thoughtsRef, projectsRef, con
                                         </a>
                                    </li>
                                    <li className=''>
-                                        <a href="#about" className='btn flex flex-col items-center text-small font-medium text-titleColor hover:text-titleColorDark' onClick={AboutScroll}>
-                                             <i class="uil uil-user block text-xl md:hidden"></i> About
+                                        <a href="#skills" className='btn flex flex-col items-center text-small font-medium text-titleColor hover:text-titleColorDark' onClick={AboutScroll}>
+                                             <i class="uil uil-file-alt nav_icon block text-xl md:hidden"></i> About
                                         </a>
                                    </li>
                                    <li className=''>

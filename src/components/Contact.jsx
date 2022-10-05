@@ -42,7 +42,7 @@ const Contact = forwardRef((props, ref) => {
                                         <div className="w-56 xsm:w-80 sm:w-40 lg:w-96 mx-auto bg-containerColor border border-black border-opacity-10 rounded-xl text-center px-4 sm:px-4 py-4">
                                              <i className="uil uil-whatsapp text-h2 text-titleColor"></i>
                                              <h3 className="text-small font-bold mt-2">Whatsapp</h3>
-                                             <span className="text-small sm:hidden lg:block mb-3">+91 6377874808</span>
+                                             <span className="text-small block sm:hidden lg:block mb-3">+91 6377874808</span>
                                              <a href={`https://api.whatsapp.com/send?phone=916377874808&text=Hey`}
                                                   className="text-titleColor text-small inline-flex items-center justify center gap-1"
                                                   target="_blank" rel="noreferrer"
