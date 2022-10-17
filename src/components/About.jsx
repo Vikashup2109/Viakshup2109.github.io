@@ -1,6 +1,6 @@
 import React, { forwardRef } from 'react'
 import Photo from '../assets/avatar2.png';
-import Resume from '../assets/Resume.pdf'
+import Resume from '../assets/VikashResume.pdf'
 
 
 const About = forwardRef((props, ref) => {
