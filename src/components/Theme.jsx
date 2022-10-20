@@ -15,10 +15,8 @@ const Theme = () => {
           setThemeToggle(!themeToggle);
           if (themeToggle) {
                localStorage.theme = 'light'
-               console.log("first")
           } else {
                localStorage.theme = 'dark'
-               console.log("dark")
           }
      }
 
