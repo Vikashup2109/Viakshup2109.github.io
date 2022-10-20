@@ -20,7 +20,6 @@ const Theme = () => {
           }
      }
 
-     console.log(localStorage.theme);
      return (
           <>
                <div className='fixed top-20 right-4' onClick={handleClick}>
