@@ -28,7 +28,7 @@ const Theme = () => {
                <div className='fixed top-20 right-4' onClick={handleClick}>
                     <label className="bg-titleColor dark:bg-[#FAF9F6] flex gap-1 rounded-full items-center p-1 relative cursor-pointer border-2">
                          <i className={localStorage.theme === 'light' ? "bx bxs-moon text-h3 text-bodyColor" : "hidden "}></i>
-                         <i className={localStorage.theme === 'light' ? "hidden" : "bx bxs-sun text-h3 font-black text-yellow-600"}></i>
+                         <i className={localStorage.theme === 'dark' ? "bx bxs-sun text-h3 font-black text-yellow-600" : "hidden"}></i>
                     </label>
                </div>
           </>
