@@ -22,15 +22,15 @@ textarea {
      font-size: 1rem;
 }
 
-body {
+/* body {
      background-color: #FAFAFA;
      color: #757575;
-}
+} */
 
 h1,
 h2,
 h3 {
-     color: #333333;
+     /* color: #333333; */
      font-weight: 600;
 }
 
@@ -58,18 +58,18 @@ img {
 }
 
 /* border-t-4 py-0.5 border-titleColor rounded-md */
-.active-tab {
+/* .active-tab {
      border-top: 2px solid #000000;
      border-bottom: 2px solid #000000;
      padding: 0.125rem 0;
      border-radius: 0.375rem;
-}
+} */
 
 /* Button */
 .button {
      display: inline-block;
-     background-color: #333333;
-     color: white;
+     /* background-color: #333333;
+     color: white; */
      padding: 1.25rem 2rem;
      border-radius: 1rem;
      font-weight: 500;
@@ -100,7 +100,6 @@ img {
           bottom: -100%;
           left: 0;
           width: 100%;
-          background-color: #FAFAFA;
           padding: 2rem 1.5rem 4rem;
           box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
           border-radius: 1.5rem 1.5rem 0 0;

@@ -78,21 +78,21 @@ const Expertise = forwardRef((props, ref) => {
 
      return (
           <>
-               <section className='pt-8 md:pt-20 lg:pt-20 pb-8 md:pb-12 lg:pb-20' ref={ref}>
+               <section className='pt-8 md:pt-20 lg:pt-20 pb-8 md:pb-12 lg:pb-20 bg-bodyColor dark:bg-bodyColorDarkMode' ref={ref}>
                     <div className="px-4 max-w-6xl mx-auto">
-                         <h2 className="text-4xl text-titleColor text-center pb-2">My Expertise Room</h2>
-                         <span className=" text-center block text-sm mb-12">What I Technically Offer</span>
+                         <h2 className="text-4xl text-titleColor text-center pb-2 text-titleColor dark:text-titleColorDarkMode">My Expertise Room</h2>
+                         <span className=" text-center block text-sm mb-12 text-titleColor dark:text-titleColorDarkMode">What I Technically Offer</span>
                          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
                               <div className="justify-center mx-auto ">
-                                   <div className="bg-containerColor border border-solid border-black border-opacity-10 rounded-3xl  py-8 px-8 sm:px-16">
+                                   <div className="bg-containerColor dark:bg-containerColorDarkMode border border-solid border-black border-opacity-10 rounded-3xl  py-8 px-8 sm:px-16">
                                         <div className='flex items-center gap-6'>
-                                             <i className="uil uil-brackets-curly block text-h1 text-titleColor mb-4"></i>
-                                             <h3 className="text-normal font-medium text-center mb-6">Frontend Development Stack</h3>
+                                             <i className="uil uil-brackets-curly block text-h1 text-titleColor dark:text-titleColorDarkMode mb-4"></i>
+                                             <h3 className="text-normal font-medium text-center mb-6 text-titleColor dark:text-titleColorDarkMode">Frontend Development Stack</h3>
                                         </div>
 
 
                                         <div className='flex items-center pb-8 '>
-                                             <p className="text-small sm:text-normal leading-6 sm:leading-7">
+                                             <p className="text-small sm:text-normal leading-6 sm:leading-7 text-titleColor dark:text-titleColorDarkMode">
                                                   I specialize in applications written in React and NextJS. Recently I became also a huge fan of one-way data flow.
                                                   <br />I have launched many single page applications in React or NextJS
                                              </p>
@@ -102,10 +102,10 @@ const Expertise = forwardRef((props, ref) => {
                                                   Object.values(frontend_skills_set).map((skill) => {
                                                        return (
                                                             <div className="skills_data flex gap-1 md:gap-1 mx-auto text-left">
-                                                                 <i className="uil uil-check-circle font-bold text-base text-titleColor"></i>
+                                                                 <i className="uil uil-check-circle font-bold text-base text-titleColor dark:text-titleColorDarkMode"></i>
                                                                  <div className=''>
-                                                                      <h3 className="skill_name leading-4 font-medium text-small">{skill.skill_name}</h3>
-                                                                      <span className="skill_level text-tiny md:text-tiny">{skill.skill_level}</span>
+                                                                      <h3 className="skill_name leading-4 font-medium text-small text-titleColor dark:text-titleColorDarkMode">{skill.skill_name}</h3>
+                                                                      <span className="skill_level text-tiny md:text-tiny text-titleColor dark:text-titleColorDarkMode">{skill.skill_level}</span>
                                                                  </div>
                                                             </div>
                                                        )
@@ -113,25 +113,25 @@ const Expertise = forwardRef((props, ref) => {
                                              }
 
                                              <div className="skills_data flex gap-1 md:gap-2 mx-auto text-left">
-                                                  <i className="uil uil-check-circle font-bold text-base text-titleColor"></i>
+                                                  <i className="uil uil-check-circle font-bold text-base text-titleColor dark:text-titleColorDarkMode"></i>
                                                   <div className=''>
-                                                       <h3 className="skill_name leading-4 font-medium text-smaller">Beer &#127867;</h3>
-                                                       <span className="skill_level text-tiny md:text-tiny">Advance</span>
+                                                       <h3 className="skill_name leading-4 font-medium text-smaller text-titleColor dark:text-titleColorDarkMode">Beer &#127867;</h3>
+                                                       <span className="skill_level text-tiny md:text-tiny text-titleColor dark:text-titleColorDarkMode">Advance</span>
                                                   </div>
                                              </div>
                                         </div>
                                    </div>
                               </div>
                               <div className="justify-center mx-auto ">
-                                   <div className="bg-containerColor border border-solid border-black border-opacity-10 rounded-3xl  py-8 px-8 sm:px-16">
+                                   <div className="bg-containerColor dark:bg-containerColorDarkMode border border-solid border-black border-opacity-10 rounded-3xl  py-8 px-8 sm:px-16">
                                         <div className='flex items-center gap-6'>
-                                             <i className="uil uil-transaction services_icon block text-h1 text-titleColor mb-4"></i>
-                                             <h3 className="text-normal font-medium text-center mb-6">Designer</h3>
+                                             <i className="uil uil-transaction services_icon block text-h1 text-titleColor dark:text-titleColorDarkMode mb-4"></i>
+                                             <h3 className="text-normal font-medium text-center mb-6 text-titleColor dark:text-titleColorDarkMode">Designer</h3>
                                         </div>
 
 
                                         <div className='flex items-center pb-8 '>
-                                             <p className="text-small sm:text-normal leading-6 sm:leading-7">
+                                             <p className="text-small sm:text-normal leading-6 sm:leading-7 text-titleColor dark:text-titleColorDarkMode">
                                                   I value simple content structure, clean design patterns, and thoughtful interactions.
                                                   <br />Mission: To create unique, digital experiences for brands who deserves to make an impact.
                                                   <br />My collective experience ranges from design, digital media, digital marketing, to brand strategy and development.
@@ -143,10 +143,10 @@ const Expertise = forwardRef((props, ref) => {
                                                   Object.values(design_skills_set).map((design_skill) => {
                                                        return (
                                                             <div className="skills_data flex gap-1 md:gap-1 mx-auto text-left">
-                                                                 <i className="uil uil-check-circle font-bold text-base text-titleColor"></i>
+                                                                 <i className="uil uil-check-circle font-bold text-base text-titleColor dark:text-titleColorDarkMode"></i>
                                                                  <div className=''>
-                                                                      <h3 className="skill_name leading-4 font-medium text-small">{design_skill.skill_name}</h3>
-                                                                      <span className="skill_level text-tiny md:text-tiny">{design_skill.skill_level}</span>
+                                                                      <h3 className="skill_name leading-4 font-medium text-small text-titleColor dark:text-titleColorDarkMode">{design_skill.skill_name}</h3>
+                                                                      <span className="skill_level text-tiny md:text-tiny text-titleColor dark:text-titleColorDarkMode">{design_skill.skill_level}</span>
                                                                  </div>
                                                             </div>
                                                        )

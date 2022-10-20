@@ -8,6 +8,7 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import ScrollUp from './components/ScrollUp';
+import Theme from "./components/Theme";
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
      return (
           <>
                <Header homeRef={HomeRef} aboutRef={AboutRef} expertiseRef={ExpertiseRef} thoughtsRef={ThoughtsRef} projectsRef={ProjectsRef} contactRef={ContactRef} />
+               <Theme />
                <main className='main'>
                     <Home aboutRef={AboutRef} ref={HomeRef} contactRef={ContactRef} />
                     <About ref={AboutRef} />
@@ -30,6 +32,7 @@ function App() {
                </main>
                <Footer aboutRef={AboutRef} projectsRef={ProjectsRef} />
                <ScrollUp homeRef={HomeRef} />
+
           </>
      );
 }
