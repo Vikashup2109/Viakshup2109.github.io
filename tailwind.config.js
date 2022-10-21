@@ -26,8 +26,8 @@ module.exports = {
                     titleColorDarkMode: '#CECECE',
                     titleColorDarkDarkMode: '#FFFFFF',
                     textColorDarkMode: '#E8E8E8',
-                    bodyColorDarkMode: '#0B0B0B',
-                    containerColorDarkMode: '#000000'
+                    bodyColorDarkMode: '#262626',
+                    containerColorDarkMode: '#1a1a1a'
                },
 
                fontSize: {
