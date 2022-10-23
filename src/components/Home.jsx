@@ -1,5 +1,7 @@
 import React, { forwardRef } from 'react'
 import Photo from '../assets/avatar.png';
+import Resume from '../assets/VikashResume.pdf'
+
 
 
 const Home = forwardRef((props, ref) => {
@@ -7,10 +9,6 @@ const Home = forwardRef((props, ref) => {
      const AboutScroll = (e) => {
           e.preventDefault();
           props.aboutRef.current.scrollIntoView({ behavior: "smooth" });
-     };
-     const ContactScroll = (e) => {
-          e.preventDefault();
-          props.contactRef.current.scrollIntoView({ behavior: "smooth" });
      };
      return (
           <>
@@ -35,7 +33,7 @@ const Home = forwardRef((props, ref) => {
 
                                    {/* Profile Image Section */}
                                    <div className="profile_image-section">
-                                        <img src={Photo} alt="Vikash DP" className='profile-image h-64 sm:h-72 shadow-3xl mx-auto' />
+                                        <img src={Photo} alt="Vikash DP" className='profile-image h-64 sm:h-72 shadow-3xl mx-auto dark:shadow-white/20' />
                                    </div>
                               </div>
 
@@ -48,9 +46,9 @@ const Home = forwardRef((props, ref) => {
                                         <h3 className="text-res-h3 sm:text-h3 lg:pl-10 font-normal mb-4 text-titleColor dark:text-titleColorDarkMode">Hey, I'm <strong>Vikash</strong>. Nice to meet you.</h3>
                                         <p className="max-w-md text-titleColor dark:text-titleColorDarkMode">I'm a creative designer and developer based in India. I like to code things from scratch, and enjoy bringing ideas to life in the browser.
                                         </p>
-                                        <a href="#contact" className="button button--flex bg-titleColor dark:bg-titleColorDarkMode space-x-2 my-10 text-containerColor dark:text-containerColorDarkMode" onClick={ContactScroll}>
-                                             <span>Say Hello</span>
-                                             <i className="uil uil-location-arrow"></i>
+                                        <a download='Vikash_Resume.pdf' href={Resume} className="button button--flex bg-titleColor dark:bg-titleColorDarkMode space-x-2 my-10 text-containerColor dark:text-containerColorDarkMode">
+                                             <span>Get Resume</span>
+                                             <i className="uil uil-file-download text-xl"></i>
                                         </a>
                                    </div>
                               </div>

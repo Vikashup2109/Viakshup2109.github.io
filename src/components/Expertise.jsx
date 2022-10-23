@@ -91,7 +91,7 @@ const Expertise = forwardRef((props, ref) => {
                                         </div>
 
 
-                                        <div className='flex items-center pb-8 '>
+                                        <div className='items-center pb-8 '>
                                              <p className="text-small sm:text-normal leading-6 sm:leading-7 text-titleColor dark:text-titleColorDarkMode">
                                                   I specialize in applications written in React and NextJS. Recently I became also a huge fan of one-way data flow.
                                                   <br />I have launched many single page applications in React or NextJS
@@ -101,23 +101,23 @@ const Expertise = forwardRef((props, ref) => {
                                              {
                                                   Object.values(frontend_skills_set).map((skill) => {
                                                        return (
-                                                            <div className="skills_data flex gap-1 md:gap-1 mx-auto text-left">
-                                                                 <i className="uil uil-check-circle font-bold text-base text-titleColor dark:text-titleColorDarkMode"></i>
-                                                                 <div className=''>
+                                                            <div className="skills_data flex flex-col gap-1 md:gap-1 mx-auto">
+                                                                 <div className='flex items-center gap-2'>
+                                                                      <i className="uil uil-check-circle font-bold text-lg text-titleColor dark:text-titleColorDarkMode"></i>
                                                                       <h3 className="skill_name leading-4 font-medium text-small text-titleColor dark:text-titleColorDarkMode">{skill.skill_name}</h3>
-                                                                      <span className="skill_level text-tiny md:text-tiny text-titleColor dark:text-titleColorDarkMode">{skill.skill_level}</span>
                                                                  </div>
+                                                                 <span className="skill_level text-tiny md:text-tiny text-titleColor dark:text-titleColorDarkMode text-center">{skill.skill_level}</span>
                                                             </div>
                                                        )
                                                   })
                                              }
 
-                                             <div className="skills_data flex gap-1 md:gap-2 mx-auto text-left">
-                                                  <i className="uil uil-check-circle font-bold text-base text-titleColor dark:text-titleColorDarkMode"></i>
-                                                  <div className=''>
+                                             <div className="skills_data flex flex-col gap-1 md:gap-2 mx-auto text-left">
+                                                  <div className='flex items-center gap-2'>
+                                                       <i className="uil uil-check-circle font-bold text-base text-titleColor dark:text-titleColorDarkMode"></i>
                                                        <h3 className="skill_name leading-4 font-medium text-smaller text-titleColor dark:text-titleColorDarkMode">Beer &#127867;</h3>
-                                                       <span className="skill_level text-tiny md:text-tiny text-titleColor dark:text-titleColorDarkMode">Advance</span>
                                                   </div>
+                                                  <span className="skill_level text-tiny md:text-tiny text-titleColor dark:text-titleColorDarkMode text-center">Advance</span>
                                              </div>
                                         </div>
                                    </div>
@@ -142,12 +142,12 @@ const Expertise = forwardRef((props, ref) => {
                                              {
                                                   Object.values(design_skills_set).map((design_skill) => {
                                                        return (
-                                                            <div className="skills_data flex gap-1 md:gap-1 mx-auto text-left">
-                                                                 <i className="uil uil-check-circle font-bold text-base text-titleColor dark:text-titleColorDarkMode"></i>
-                                                                 <div className=''>
+                                                            <div className="skills_data flex flex-col gap-1 md:gap-1 mx-auto text-left">
+                                                                 <div className='flex items-center gap-2'>
+                                                                      <i className="uil uil-check-circle font-bold text-base text-titleColor dark:text-titleColorDarkMode"></i>
                                                                       <h3 className="skill_name leading-4 font-medium text-small text-titleColor dark:text-titleColorDarkMode">{design_skill.skill_name}</h3>
-                                                                      <span className="skill_level text-tiny md:text-tiny text-titleColor dark:text-titleColorDarkMode">{design_skill.skill_level}</span>
                                                                  </div>
+                                                                 <span className="skill_level text-tiny md:text-tiny text-titleColor dark:text-titleColorDarkMode text-center">{design_skill.skill_level}</span>
                                                             </div>
                                                        )
                                                   })

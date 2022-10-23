@@ -1,6 +1,5 @@
 import React, { forwardRef } from 'react'
 import Photo from '../assets/avatar2.png';
-import Resume from '../assets/VikashResume.pdf'
 
 
 const About = forwardRef((props, ref) => {
@@ -34,16 +33,22 @@ const About = forwardRef((props, ref) => {
                                    </div>
                                    {/* About Description */}
 
-                                   <p className="p-0 sm:pr-20 sm:pl-20 lg:p-0 lg:pr-5 mb-8 text-titleColor dark:text-titleColorDarkMode">
+                                   <p className="p-0 sm:pr-20 sm:pl-20 lg:p-0 lg:pr-5 mb-3 text-titleColor dark:text-titleColorDarkMode">
                                         <strong> Frontend Developer</strong>, I create successful websites that are fast, easy to use, and built with best practices.
                                         My journey of a freelance developer started a year ago and I have done many freelancing Projects right from scratch.
                                    </p>
 
-                                   {/* About CV Button */}
-                                   <a download='Vikash_Resume.pdf' href={Resume} className="button button--flex bg-titleColor dark:bg-titleColorDarkMode space-x-2 my-10 text-containerColor dark:text-containerColorDarkMode">
-                                        <span>Get Resume</span>
-                                        <i className="uil uil-file-download text-xl"></i>
-                                   </a>
+                                   {/* About Social Button */}
+                                   <div className='flex justify-between'>
+                                        <a href='https://www.linkedin.com/in/Vikashup2109' target='_blank' className="button button--flex bg-titleColor dark:bg-titleColorDarkMode space-x-2 my-10 text-containerColor dark:text-containerColorDarkMode" rel="noreferrer">
+                                             <span>LinkedIn </span>
+                                             <i className="uil uil-linkedin-alt text-xl"></i>
+                                        </a>
+                                        <a href='https://www.github.com/Vikashup2109' target='_blank' className="button button--flex bg-titleColor dark:bg-titleColorDarkMode space-x-2 my-10 text-containerColor dark:text-containerColorDarkMode" rel="noreferrer">
+                                             <span>Github </span>
+                                             <i className="uil uil-github-alt text-xl"></i>
+                                        </a>
+                                   </div>
                               </div>
                          </div>
                     </div>
