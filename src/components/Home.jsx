@@ -42,8 +42,8 @@ const Home = forwardRef((props, ref) => {
 
                               <div className="lg:w-1/2 lg:pl-8 md:pl-20 lg:pl-24 mt-24">
                                    <div className="text-center lg:text-left">
-                                        <h1 className="text-res-big sm:text-h2 mb-2 text-titleColor dark:text-titleColorDarkMode">Designer and Front-End Developer</h1>
-                                        <h3 className="text-res-h3 sm:text-h3 lg:pl-10 font-normal mb-4 text-titleColor dark:text-titleColorDarkMode">Hey, I'm <strong>Vikash</strong>. Nice to meet you.</h3>
+                                        <h3 className="text-res-h3 sm:text-h3 font-normal mb-4 text-titleColor dark:text-titleColorDarkMode">Hey, I'm <strong>Vikash</strong>. Nice to meet you.</h3>
+                                        <h1 className="text-res-big sm:text-h2 mb-4 text-titleColor dark:text-titleColorDarkMode">Front-End Developer and UI Designer</h1>
                                         <p className="max-w-md text-titleColor dark:text-titleColorDarkMode">I'm a creative designer and developer based in India. I like to code things from scratch, and enjoy bringing ideas to life in the browser.
                                         </p>
                                         <a download='Vikash_Resume.pdf' href={Resume} className="button button--flex bg-titleColor dark:bg-titleColorDarkMode space-x-2 my-10 text-containerColor dark:text-containerColorDarkMode">
